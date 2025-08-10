@@ -281,7 +281,7 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url(/images/hero-bg.png)" }}>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url(/images/deep.jpg)" }}>
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
         </div>
 
@@ -432,14 +432,14 @@ export default function HomePage() {
                 alt: "Standard LED bulbs for home and office use",
               },
               {
-                image: "/images/decorative-led.png",
+                image: "/images/deep-logo.jpg",
                 title: "Decorative LED Bulbs",
                 desc: "Stylish lighting for special occasions",
                 power: "5W to 12W",
                 alt: "Decorative LED bulbs for festive and ambient lighting",
               },
               {
-                image: "/images/smart-led.png",
+                image: "/images/deep copy.jpg",
                 title: "Smart LED Bulbs",
                 desc: "Wi-Fi enabled smart lighting control",
                 power: "9W to 15W",

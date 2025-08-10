@@ -10,8 +10,8 @@ export default function GoogleMap() {
   // Deep Indian LED address
   const address = "Babuganj, Unchahar, Raebareli"
   const encodedAddress = encodeURIComponent(address)
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodedAddress}`
-  const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodedAddress}`
+  const googleMapsUrl = `https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d399.34107123884974!2d81.28696321808674!3d25.980030804677593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdeep%20indian%20babuganj%20unchahar%20!5e1!3m2!1sen!2sin!4v1754819938091!5m2!1sen!2sin`
+  const directionsUrl = `https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d399.34107123884974!2d81.28696321808674!3d25.980030804677593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdeep%20indian%20babuganj%20unchahar%20!5e1!3m2!1sen!2sin!4v1754819938091!5m2!1sen!2sin`
 
   return (
     <div className="bg-white rounded-2xl sm:rounded-3xl shadow-xl overflow-hidden">
